@@ -31,7 +31,7 @@ Same thing, e.g.
 
 ## How does it work?
 
-There is a reference folder called [./reference](./reference), that conatains the summary for `x` sentences for each currency. Those will be copied over to the public facing `coins` directory with different names, to make the API as flexible as possible.
+There is a reference folder called [./reference](./reference), that contains the summary for `x` sentences for each currency. Those will be copied over to the public facing `coins` directory with different names, to make the API as flexible as possible.
 
 Check out the [./reference](./reference) directory, you can use the official `symbol` with the number of sentences (`[symbol]-[sentences].txt`) and store the summary in there. Next time the script runs, it will be applied to all the public facing `.txt` files.
 
